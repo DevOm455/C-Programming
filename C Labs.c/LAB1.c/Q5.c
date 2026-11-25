@@ -6,13 +6,12 @@ int main()
 {
     char ch;
 
-    printf("Enter a charecter:");
+    printf("Enter a character:");
     ch = getchar();
 
-    printf("\nNext charecter:");
+    printf("\nNext character:");
     putchar(ch + 1);
 
-    printf("\nASCII value of next charecter: %d", ch + 1);
-    
+    printf("\nASCII value of next character: %d", ch + 1);
     return 0;
 }
