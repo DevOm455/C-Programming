@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main(){
     char ch;
-    printf("Enter a charecter:");
+    printf("Enter a character:");
     ch = getchar();
     printf("you enterd:");
     putchar(ch);
